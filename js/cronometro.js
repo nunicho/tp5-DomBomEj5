@@ -21,8 +21,7 @@
           if (segundos > 59) {
             segundos = `00`
             minutos ++
-      
-            if (minutos < 10) minutos = `0` + minutos
+          if (minutos < 10) minutos = `0` + minutos
           }
       
           if (minutos > 59) {
